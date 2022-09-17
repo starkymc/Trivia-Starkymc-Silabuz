@@ -45,8 +45,6 @@ while jugar == True:
   time.sleep(2)
   print(RED+"Instrucciones","\n Cada punto correcto vale 10 puntos\n Cada punto incorrecto son -5 puntos")
   time.sleep(4)
-  print("\nEspera a que el contador pare para escribir tu respuesta")
-  time.sleep(4)
   print("Se escogera al jugador y los puntos de forma aleatoria, suerte!"+RESET)
   time.sleep(3)
   #Mostramos al jugador random
@@ -87,7 +85,7 @@ while jugar == True:
   #for numero in range (3,0,-1):
    # print(numero)
   time.sleep(2)
-  print(YELLOW+"Jugador: ", jugadores[i], "esta jugado"+RESET)
+  print(YELLOW+"Jugador: ", jugadores[i], "esta jugando"+RESET)
   # Guardamos la respuesta en un variable"
   respuesta_low = input("\nTu respuesta: ")
   time.sleep(2)
@@ -131,7 +129,7 @@ while jugar == True:
   #for numero in range (2,0,-1):
    # print(numero)
   time.sleep(2)
-  print(YELLOW+"\nJugador: ", jugadores[i], "esta jugado"+RESET)
+  print(YELLOW+"\nJugador: ", jugadores[i], "esta jugando"+RESET)
   # Guardamos la respuesta en una variable "
   respuesta_low = input("\nTu respuesta: ")
   time.sleep(2)
@@ -173,7 +171,7 @@ while jugar == True:
   #for numero in range (2,0,-1):
    # print(numero)
   time.sleep(2)
-  print(YELLOW+"\nJugador: ", jugadores[i], "esta jugado"+RESET)
+  print(YELLOW+"\nJugador: ", jugadores[i], "esta jugando"+RESET)
   # Almacenamos la respuesta del usuario en la variable "respuesta"
   respuesta_low = input("\nTu respuesta: ")
   time.sleep(2)
@@ -208,7 +206,7 @@ while jugar == True:
   #for numero in range (3,0,-1):
    # print(numero)
   time.sleep(2)
-  print(YELLOW+"\nJugador: ", jugadores[i], "esta jugado"+RESET)
+  print(YELLOW+"\nJugador: ", jugadores[i], "esta jugando"+RESET)
     
   respuesta_low = input("\nTu respuesta: ")
   time.sleep(2)
@@ -249,7 +247,7 @@ while jugar == True:
     print("")
     
     #Preguntamos si quiere seguir jugando
-  game = input("Deseas continuar jugando? Responde si o no\n").lower()
+  game = input("\nDeseas continuar jugando? Responde si o no\n").lower()
 
   while game not in ("si", "no"):
     game = input("No escribiste correctamente, intenta nuevamente").lower()
