@@ -11,7 +11,8 @@
 
 ## Trivia Random de preguntas hecho en python 😀
 
-[Demo](https://replit.com/@starkymc/Trivia-StarkyMedina)
 
-<p>Entra aqui <a href="https://replit.com/@starkymc/Trivia-StarkyMedina" target="_blank">Demo</a></p>
+ [Demo](https://replit.com/@starkymc/Trivia-StarkyMedina) 
+
+
 
